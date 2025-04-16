@@ -3,8 +3,8 @@ from telebot import types
 import requests
 import os
 
-TOKEN = ''
-API_TOKEN = ''
+TOKEN = env.TOKEN
+API_TOKEN = env.API_TOKEN
 
 bot = telebot.TeleBot(TOKEN)
 
