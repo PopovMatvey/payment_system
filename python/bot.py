@@ -82,4 +82,5 @@ def check_payment_status(invoice_id):
         return None
 
 if __name__ == '__main__':
+    print("Bot has been running")
     bot.polling(non_stop=True)
